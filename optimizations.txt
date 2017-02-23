@@ -77,7 +77,7 @@ a much larger range of keys, we will have a much larger depth, especially in
 the incrementing and decrementing key tests. Thus, we are mainly testing how
 well we can traverse down our multimap.
 
-e)  Explanation of your optimizations:
+e)  Explanation of optimizations:
 The first optimization was allocating a large block of memory that holds many
 multimap nodes. This way, when we allocate nodes, the addresses are very
 similar to each other so they take less time to locate and is overall more
